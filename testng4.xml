@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+    <parameter name="URL" value="www.rahul.com"/>
+<test name="Regression">
+    <parameter name="URL" value="www.rahulrawat.com"/>
+        <classes>
+
+            <class name="Test.day1"/>
+
+        </classes>
+
+</test>
+</suite>

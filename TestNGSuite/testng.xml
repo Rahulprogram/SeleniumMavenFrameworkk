@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ecommerce Website"  >
+    <groups>
+        <run>
+            <include name="ErrorHandling"/>
+
+        </run>
+    </groups>
+    <test name="ErrorValidation">
+        <classes>
+        <class name="EcommerceTest.ErrorValidation"/>
+        </classes>
+    </test>
+
+    <test name="Submit Order">
+        <classes>
+            <class name="EcommerceTest.Standalone2"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ecommerce Website"  >
+   <listeners>
+
+       <listener class-name="TestComponents.TestNGListeners"/>
+   </listeners>
+
+    <test name="ErrorValidation">
+        <classes>
+        <class name="EcommerceTest.ErrorValidation"/>
+        </classes>
+    </test>
+
+
+</suite>
